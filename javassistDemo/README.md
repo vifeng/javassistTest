@@ -1,2 +1,0 @@
-# javassistDemo
-Demo de javassist
