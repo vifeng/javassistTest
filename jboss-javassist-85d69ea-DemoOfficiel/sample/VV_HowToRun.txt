@@ -1,0 +1,16 @@
+How to run
+
+see tutorial/tutorial.html
+
+$ cd .../jboss-javassist-85d69ea-DemoOfficiel
+
+
+/* solution 2
+	$ javac -cp ./javassist.jar sample/Test.java 
+	$ java -cp ./javassist.jar sample/Test.java  
+*/
+
+$ export CLASSPATH=.:javassist.jar
+javac sample/Test.java 
+java sample.Test 
+javap sample.Test
