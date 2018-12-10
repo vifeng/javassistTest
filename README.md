@@ -1,5 +1,5 @@
-# javassistDemo
-Demo de javassist
+# javassistTests
+Tests of Javassist
 
 ## Javassist
 ### What I tested 

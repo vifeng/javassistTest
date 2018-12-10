@@ -91,8 +91,15 @@ public class Test {
 		                 "public void myprint() {System.out.println(\"bravo!\");}",
 		                 cthriller);
 			  cthriller.addMethod(m);
-			  cthriller.writeFile();
+			  cthriller.writeFile("./src/javassist_annotation");
 			 
+			  cthriller.defrost();
+			  CtMethod mm = cthriller.getDeclaredMethod("myprint");
+			  Class c = cthriller.toClass();
+			   Object th = c.newInstance();
+			   th.myprint();
+			  Object th = c.newInstance();
+
 
 			  //other way
 //			  CtMethod m = new CtMethod(CtClass.voidType, "myprint",
